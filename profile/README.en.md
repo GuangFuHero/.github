@@ -119,8 +119,6 @@ This project emerged in response to natural disasters affecting Taiwan. Our plat
 
 </div>
 ---
-## GuangFuHero — Open Source & Design Licensing Overview
-
 This organization contains multiple repositories supporting the GuangFuHero
 disaster-relief and volunteer-coordination ecosystem.  
 Because our ecosystem includes both **software code** and **creative design assets**,  
