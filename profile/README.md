@@ -112,3 +112,69 @@ _Act with love, connect with embrace_
 _Made with ❤️ by Remote Volunteers_
 
 </div>
+
+---
+
+# 🇹🇼 GuangFuHero — 開源與設計授權總覽
+
+本組織包含多個與 GuangFuHero 災害救援與志工協作系統相關的程式碼與設計資產。  
+因為生態系中包含 **程式碼** 與 **設計素材**，不同資料庫採用不同授權條款。
+
+---
+
+## 📘 程式碼資料庫 — 採用 GPL v3 授權
+
+以下程式碼相關的資料庫皆採用 **GNU GPL v3** 授權：
+
+- `legacy_version`
+- `optimized_version`
+- 所有 backend / frontend 程式碼 repo
+
+GPL v3 適用於：
+
+- 後端服務  
+- 前端程式碼  
+- 自動化腳本、工具  
+- 所有技術類程式碼
+
+每個 repo 的根目錄皆包含自己的 `LICENSE` 檔案，請以各 repo 的內容為準。
+
+---
+
+## 🎨 設計類資料庫 — 採用 CC BY-NC-SA 4.0 授權
+
+以下設計類資料庫皆採用  
+**Creative Commons BY-NC-SA 4.0（姓名標示－非商用－相同方式分享）**：
+
+- `brand-design-alignment`
+
+授權內容適用於：
+
+- UI / UX 設計稿  
+- 海報、Banner  
+- 插圖、Icons  
+- 攝影、圖像素材  
+- 視覺模板與版型  
+
+### ⚠ 商標例外條款  
+**GuangFuHero 名稱與 Logo 不包含在 CC BY-NC-SA 授權內，仍受商標法保護。**  
+位於 `/logo` 資料夾的檔案不得在未經書面授權的情況下使用。
+
+---
+
+## 🧾 貢獻者授權協議（CLA）
+
+所有程式碼貢獻者需先簽署 **個人 CLA（Individual CLA）** 才能提交 PR。  
+CLA Assistant Bot 會在你第一次提交 PR 時自動要求簽署。
+
+---
+
+## 📌 授權摘要
+
+- **所有程式碼** → GPL v3  
+- **所有設計素材** → CC BY-NC-SA 4.0  
+- **Logo / 品牌識別** → 商標保護，不授權  
+- **每個 repo 都有自己的 LICENSE（不可省略）**  
+
+如需授權或品牌使用相關問題，請聯繫 GuangFuHero 維護團隊。
+
