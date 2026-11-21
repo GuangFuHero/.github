@@ -117,64 +117,64 @@ _Made with ❤️ by Remote Volunteers_
 
 # 🇹🇼 GuangFuHero — 開源與設計授權總覽
 
-本組織包含多個與 GuangFuHero 災害救援與志工協作系統相關的程式碼與設計資產。  
-因為生態系中包含 **程式碼** 與 **設計素材**，不同資料庫採用不同授權條款。
+本組織包含多個與 GuangFuHero 災害救援與志工協作系統相關的程式碼與設計資產。
+組織內的內容統一照下面兩種授權釋出：**程式碼用 GPL v3，設計素材用 CC BY-SA 4.0**。
 
 ---
 
-## 📘 程式碼資料庫 — 採用 GPL v3 授權
+## 📘 程式碼 — GNU GPL v3（`GPL-3.0-only`）
 
-以下程式碼相關的資料庫皆採用 **GNU GPL v3** 授權：
+所有程式碼與技術文件都採用 **GNU General Public License v3.0 only**，包括：
 
-- `legacy_version`
-- `optimized_version`
-- 所有 backend / frontend 程式碼 repo
+- `optimized-version`
+- `legacy-version`
+- 其他後端、前端程式碼 repo
 
-GPL v3 適用於：
+適用於後端服務、前端程式碼、自動化腳本與工具，以及所有技術類程式碼與文件。
 
-- 後端服務  
-- 前端程式碼  
-- 自動化腳本、工具  
-- 所有技術類程式碼
-
-每個 repo 的根目錄皆包含自己的 `LICENSE` 檔案，請以各 repo 的內容為準。
+每個 repo 的根目錄都有自己的 `LICENSE` 檔案，詳細範圍以各 repo 的說明為準（例如 `optimized-version` 的 `LICENSING.md`）。
 
 ---
 
-## 🎨 設計類資料庫 — 採用 CC BY-NC-SA 4.0 授權
+## 🎨 設計素材 — CC BY-SA 4.0
 
-以下設計類資料庫皆採用  
-**Creative Commons BY-NC-SA 4.0（姓名標示－非商用－相同方式分享）**：
+所有設計素材都採用 **創用 CC 姓名標示－相同方式分享 4.0 國際（`CC-BY-SA-4.0`）**，姓名標示請寫「光復超人設計團隊」。包括：
 
 - `brand-design-alignment`
+- 程式碼 repo 裡的設計素材，例如插圖、吉祥物「光復寶寶」、UI 設計稿，以及 `optimized-version` 設計分支（`sucrelindesign`）上的設計稿與設計文件
 
-授權內容適用於：
+適用於 UI／UX 設計稿、海報與 Banner、插圖與 Icons、攝影與圖像素材、視覺模板與版型。
 
-- UI / UX 設計稿  
-- 海報、Banner  
-- 插圖、Icons  
-- 攝影、圖像素材  
-- 視覺模板與版型  
+### 為什麼不用「非商業性（NC）」
 
-### ⚠ 商標例外條款  
-**GuangFuHero 名稱與 Logo 不包含在 CC BY-NC-SA 授權內，仍受商標法保護。**  
-位於 `/logo` 資料夾的檔案不得在未經書面授權的情況下使用。
+- 我們希望政府、NGO 與各界都能自由使用與修改。委託廠商部署、維運通常會被認定為商業使用，帶 NC 的素材就不能用。
+- 創用 CC 公告過 CC BY-SA 4.0 可以單向併入 GPL v3 的作品，設計素材放進 GPL 的程式裡不會衝突；CC BY-NC-SA 不行。
+
+### ⚠ 名稱與 Logo 例外
+
+**GuangFuHero（光復超人）、島嶼守望等名稱與 Logo，不在 GPL 或 CC BY-SA 授權範圍內，仍受商標法保護。**
+`/logo` 資料夾與各 repo 標示為 Logo 的檔案，未經書面同意不得使用。部署自己的版本時，請換成你自己的名稱與 Logo。
 
 ---
 
 ## 🧾 貢獻者授權協議（CLA）
 
-所有程式碼貢獻者需先簽署 **個人 CLA（Individual CLA）** 才能提交 PR。  
-CLA Assistant Bot 會在你第一次提交 PR 時自動要求簽署。
+所有貢獻者需先簽署 **個人 CLA（Individual CLA）** 才能合併 PR。
+CLA Assistant 會在你第一次提交 PR 時自動要求簽署。
+
+---
+
+## 🔐 資安通報
+
+發現資安問題，請**不要**開公開的 issue。請用該 repo 的 GitHub 私下通報（Security → Report a vulnerability），或寄信到 **wanguard25@gmail.com**。各 repo 的處理方式見其 `SECURITY.md`。
 
 ---
 
 ## 📌 授權摘要
 
-- **所有程式碼** → GPL v3  
-- **所有設計素材** → CC BY-NC-SA 4.0  
-- **Logo / 品牌識別** → 商標保護，不授權  
-- **每個 repo 都有自己的 LICENSE（不可省略）**  
+- **所有程式碼與技術文件** → GPL-3.0-only
+- **所有設計素材** → CC BY-SA 4.0
+- **名稱、Logo、品牌識別** → 商標保護，不授權
+- **每個 repo 都有自己的 LICENSE（不可省略）**
 
 如需授權或品牌使用相關問題，請聯繫 GuangFuHero 維護團隊。
-

@@ -120,67 +120,71 @@ This project emerged in response to natural disasters affecting Taiwan. Our plat
 </div>
 
 This organization contains multiple repositories supporting the GuangFuHero
-disaster-relief and volunteer-coordination ecosystem.  
-Because our ecosystem includes both **software code** and **creative design assets**,  
-different repositories use different licenses.
+disaster-relief and volunteer-coordination ecosystem.
+Everything in it is released under two licenses: **code under GPL v3, design assets under CC BY-SA 4.0**.
 
 ---
 
-## 📘 Code Repositories — GPL v3
+## 📘 Code — GNU GPL v3 (`GPL-3.0-only`)
 
-The following repositories use **GNU GPL v3**:
+All code and technical documentation is licensed under the **GNU General Public License v3.0 only**, including:
 
-- `legacy_version`
-- `optimized_version`
-- all backend/frontend source-code repositories
+- `optimized-version`
+- `legacy-version`
+- all other backend/frontend source-code repositories
 
-GPL v3 applies to:
+This covers backend services, frontend code, scripts, tooling, automation, and all technical implementations and docs.
 
-- backend services
-- frontend code
-- scripts, tooling, automation
-- all technical implementations
-
-Each repository includes its own `LICENSE` file.  
-Please refer to the specific repo for full legal terms.
+Each repository includes its own `LICENSE` file. Refer to each repository for its exact scope
+(for example, `LICENSING.md` in `optimized-version`).
 
 ---
 
-## 🎨 Design Repositories — CC BY-NC-SA 4.0
+## 🎨 Design Assets — CC BY-SA 4.0
 
-The following repository uses  
-**Creative Commons BY-NC-SA 4.0 (Attribution–NonCommercial–ShareAlike)**:
+All design assets are licensed under **Creative Commons Attribution-ShareAlike 4.0 International (`CC-BY-SA-4.0`)**.
+Credit them to “光復超人設計團隊 (GuangFuHero design team)”. This includes:
 
 - `brand-design-alignment`
+- design assets inside code repositories, such as illustrations, the 光復寶寶 mascot, UI designs, and the designs and
+  design docs on the `sucrelindesign` branch of `optimized-version`
 
-This applies to:
+This applies to UI/UX design files, posters and banners, icons and illustrations, photography, and design templates and visual materials.
 
-- UI/UX design files  
-- posters & banners  
-- icons, illustrations  
-- photography  
-- design templates and visual materials
+### Why not NonCommercial (NC)
 
-### ⚠ Trademark Exception  
-The **GuangFuHero name, logos, and brand identity** are *NOT covered* under  
-CC BY-NC-SA and may not be used without explicit written permission.  
-Trademark-protected files are stored in `/logo`.
+- We want governments, NGOs, and everyone else to use and adapt these freely. Deployments run by contracted vendors
+  usually count as commercial use, which NC would forbid.
+- Creative Commons lists CC BY-SA 4.0 as one-way compatible with GPL v3, so design assets can live inside GPL code;
+  CC BY-NC-SA cannot.
+
+### ⚠ Names and Logos Exception
+The **GuangFuHero (光復超人) and 島嶼守望 names, logos, and brand identity** are *not covered* by the GPL or CC BY-SA
+and may not be used without explicit written permission. This includes `/logo` and any file a repository marks as a logo.
+If you deploy your own version, replace them with your own name and logo.
 
 ---
 
 ## 🧾 Contributor License Agreement (CLA)
 
-All code contributors must sign the **Individual CLA** before submitting PRs.  
+All contributors must sign the **Individual CLA** before a PR can be merged.
 CLA Assistant will automatically request your signature on your first PR.
+
+---
+
+## 🔐 Reporting Security Issues
+
+Please do **not** open a public issue for a security problem. Use the repository's private GitHub reporting
+(Security → Report a vulnerability), or email **wanguard25@gmail.com**. See each repository's `SECURITY.md`.
 
 ---
 
 ## 📌 Summary
 
-- **All code** → GPL v3  
-- **All design assets** → CC BY-NC-SA 4.0  
-- **Logos & branding** → trademark-protected  
-- **Each repository includes its own LICENSE file**  
+- **All code and technical docs** → GPL-3.0-only
+- **All design assets** → CC BY-SA 4.0
+- **Names, logos & branding** → trademark-protected, not licensed
+- **Each repository includes its own LICENSE file**
 
-For questions regarding licensing or brand usage,  
+For questions regarding licensing or brand usage,
 please contact the GuangFuHero maintainers.
